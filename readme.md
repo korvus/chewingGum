@@ -15,10 +15,16 @@ jq.chewingGum
 $(".mynode").chewingGum();
 ```
 
+```css
+body .fixed{position:fixed;}
+```
+
+
 ###Params
 
 - nameClassStick: a string. default "fixed". What class is applied when you go beyond the line
 - nameClassUStick: a string. default "display". What class is applied when your element is not beyond the line of windows.
+- affected: jquery object. Add and remove the same class as nameClassStick to an other element you choose, when targeted node triggered or not.
 
 ###Licence
 
